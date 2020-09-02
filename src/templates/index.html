@@ -1,16 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Restaurant Apps Starter Project</title>
-</head>
-<body>
-<h1>Restaurant Apps Starter Project</h1>
-<p>Hallo coders! Anda berhasil menjalankan starter project.</p>
-<p>Jangan lupa untuk menggunakan salah satu gambar yang berada pada ./images/heros sebagai background hero elemen</p>
-<img src="./images/heros/hero-image_1.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_2.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_3.jpg" width="450" alt="">
-<img src="./images/heros/hero-image_4.jpg" width="450" alt="">
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Pawon Tamasa</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-wrapper">
+        <div class="grad-bar"></div>
+        <nav class="navbar">
+          <img src="./images/logo.png" alt="Company Logo" />
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="nav no-search">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item">
+              <a href="https://github.com/usmanwahyuhp/">About</a>
+            </li>
+            <li class="nav-item"><a href="#">Favorite</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="hero">
+      <div class="hero__inner">
+        <span class="material-icons hero-icon"> local_cafe </span>
+        <h1 class="hero__title">Welcome!</h1>
+        <p class="hero__tagline">To the best Restaurant Catalogue.</p>
+      </div>
+    </div>
+
+    <main>
+      <div class="main">
+        <h1>Our Best Services</h1>
+        <ul class="cards" id="cards"></ul>
+      </div>
+    </main>
+    <footer>
+      <p>Copyright © 2020 - Pawon Tamasa ♡</p>
+    </footer>
+  </body>
 </html>
